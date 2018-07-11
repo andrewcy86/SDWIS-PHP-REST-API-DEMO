@@ -1,0 +1,8 @@
+---
+applications:
+- name: sdwis
+  memory: 512M
+  disk_quota: 512M
+  path: .
+  buildpack: https://github.com/cloudfoundry/php-buildpack
+  host: sdwis
